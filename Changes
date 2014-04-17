@@ -1,0 +1,6 @@
+Revision history for Proc-ChildError
+
+0.01    2014-04-17 (SHARYANTO) (not yet released)
+
+        - First release. Extracted from SHARYANTO-Utils (renamed module from
+          SHARYANTO::Proc::ChildError to Proc::ChildError).
