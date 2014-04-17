@@ -1,6 +1,6 @@
 package Proc::ChildError;
 
-use 5.010;
+use 5.010001;
 require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT_OK = qw(explain_child_error);
