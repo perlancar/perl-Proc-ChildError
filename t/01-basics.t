@@ -21,5 +21,8 @@ like(explain_child_error(3|128), qr/^died with signal 3, with coredump$/);
 
 like(explain_child_error(256), qr/^exited with code 1$/);
 
+# option: prog
+like(explain_child_error({prog=>"foo"}, 256), qr/^foo exited with code 1$/);
+
 DONE_TESTING:
 done_testing();
