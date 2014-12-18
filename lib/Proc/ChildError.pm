@@ -76,4 +76,12 @@ Program name/path, to include in error messages:
 
 =back
 
+
+=head1 SEE ALSO
+
+L<IPC::System::Simple> provides a replacement for Perl's C<system()>, with the
+difference that it will print a diagnostic error message similar to what
+C<Proc::ChildError> provides. You only need to do C<use IPC::System::Simple
+qw(system)> and use C<system()> as usual. Recommended.
+
 =cut
