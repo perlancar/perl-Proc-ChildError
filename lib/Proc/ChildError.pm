@@ -3,7 +3,6 @@ package Proc::ChildError;
 # DATE
 # VERSION
 
-use 5.010001;
 use strict;
 use warnings;
 
