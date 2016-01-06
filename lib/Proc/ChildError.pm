@@ -78,6 +78,9 @@ Program name/path, to include in error messages:
 
 =head1 SEE ALSO
 
+L<Process::Status> provides a lightweight OO interface for C<$?>. I recommend
+this module now over Proc::ChildError.
+
 L<IPC::System::Simple> provides a replacement for Perl's C<system()>, with the
 difference that it will print a diagnostic error message similar to what
 C<Proc::ChildError> provides. You only need to do C<use IPC::System::Simple
