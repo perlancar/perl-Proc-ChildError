@@ -1,5 +1,12 @@
 Revision history for Proc-ChildError
 
+0.04    2016-01-06 (PERLANCAR)
+
+	- No functional changes.
+
+	- Mention Process::Status.
+
+
 0.03    2015-06-26 (PERLANCAR)
 
 	- No functional changes.
